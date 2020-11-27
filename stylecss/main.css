@@ -1,0 +1,576 @@
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+p{
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: block;
+	font-family: 'Rubik', sans-serif;
+}
+
+header {
+	background-color: #F6F6F9;
+}
+
+.header {
+	width: 1200px;
+	height: 352px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 20px;
+}
+
+.topheader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 44px;
+}
+
+.logodiv {
+	width: 306px;
+	height: 33px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+
+}
+
+/*#valyutaEmblema {
+	color: #285193;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.valyuta ul{
+	width: 300px;
+}
+
+.valyuta li {
+	display: flex;
+	justify-content: space-around;
+}
+
+.valyuta {
+	margin-right: 469px;
+	border: 1px solid red;
+}
+*/
+
+.headertoplogo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.valyuta ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.valyuta li{
+	padding: 5px;
+}
+
+#valyutaEmblema {
+	color: #285193;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	padding: 3px;
+}
+
+
+.Telegram a {
+	padding: 11px 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 19px;
+	color: #FFFFFF;
+}
+
+.Telegram a:before {
+	content: url('../images/oqtelegram.svg');
+	background-repeat: no-repeat;
+	margin-right: 15px;
+}
+
+
+/*Navigation Bar Uchun Stillar*/
+
+.headerNav{
+	display: flex;
+	justify-content: space-around;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+	border-radius: 5px;
+	margin-top: 44px;
+	box-sizing: border-box;
+}
+
+.headerNav a{
+	padding: 25px 9px;
+	font-weight: 500;
+	font-size: 19px;
+	color: #515151;
+	border: 3px solid white;
+}
+
+.headerNav a:hover{
+	border-bottom: 3px solid blue;
+}
+
+.headerReklama img{
+	width: 1200px;
+	margin-top: 18px;
+}
+
+
+/*KaronaVirus Info*/
+
+
+.karonavirusInfo{
+	width: 1200px;
+	height: 133px;
+	background: #F6F6F9;
+	border-radius: 5px;
+	margin-top: 22px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.karonaBox{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 456px;
+	border-right: 2px solid #EB5569;
+	height: 74px;
+}
+
+.karonaBoxImage img{
+	width: 43px;
+	height: 45px;
+}
+
+.karonaBoxText{
+	width: 232px;
+	height: 50px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.karonaBoxText h4{
+	padding: 0;
+	margin: 0;
+}
+
+
+.karonaBox2{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 200px;
+	border-right: 2px solid #F4CCD1;
+	height: 49px;
+	width: 287px;
+}
+
+
+.karonaBoxText2{
+	color: red;
+}
+
+#karonaBoxText2{
+	font-weight: bold;
+	color: black;
+	font-size: 20px;
+}
+
+
+.karonaBoxText3 h4{
+	color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Body qismi uchun stillar*/
+
+/*Section 1 uchun stillar*/
+
+
+.container {
+	width: 1200px;
+	height: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.section1{
+	width: 600px;
+	height: 1000px;
+	display: block;
+}
+
+
+.RegText{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+	margin-bottom: 12px;
+	padding: 10px 0px;
+}
+
+.Regside{
+	display: block;
+}
+
+input[type="text"] ,input[type="email"], input[type="tel"]{
+	padding: 15px 16px;
+	width: 100%;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	box-sizing: border-box;
+  	opacity: 0.5;
+	border: 2px solid #285193;
+  	border-radius: 5px;
+  	background: #F1F1F1;
+  	border-radius: 5px;
+  	color: #888888;
+  	outline: none;
+}
+
+
+textarea{
+	width: 100%;
+	height: 307px;
+  	padding: 12px;
+  	border-radius: 4px;
+  	resize: none;
+  	font-size: 18px;
+	font-weight: normal;
+  	box-sizing: border-box;
+  	border-radius: 5px;
+	border: 2px solid #285193
+  	outline: none;
+  	border: 2px solid #285193;
+ 	color: #888888;
+ 	outline: none;
+ 	background: #F1F1F1;
+ 	opacity: 0.5;
+ 	font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;;
+}
+
+input[type="text"] , textarea{
+	margin-bottom: 20px;
+}
+
+
+
+button{
+	padding: 15px 61px;
+	background: #295093;
+	border: 2px solid rgba(40, 81, 147, 0.54);
+	box-sizing: border-box;
+	border-radius: 5px;
+	color: white;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
+
+#specialinput{
+	background-image: url(../images/fayllogo.svg);
+	background-repeat: no-repeat;
+	background-position: 180px 10px; 
+}
+
+
+/*Namangan 24 Qismi*/
+
+.section2{
+	padding-top: 59px;
+}
+
+.N24logo{
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.N24{
+	width: 510px;
+	height: 290px;
+	border: 1px solid black;
+	background: #FFFFFF;
+	border: 2px solid #BCC3CD;
+	box-sizing: border-box;
+	border-radius: 5px;
+	display: block;
+	padding: 5px 10px;
+	box-shadow: 0px 8px 9px rgba(57, 57, 57, 0.25);
+}
+
+.Telegram a {
+	width: 150px;
+	height: 33px;
+	padding: 6px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #295091;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 19px;
+	color: #FFFFFF;
+}
+
+.Telegram a:before {
+	content: url('../images/oqtelegram.svg');
+	background-repeat: no-repeat;
+	margin-right: 15px;
+}
+
+.N24Box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.N24Box p{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #888888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Fooooooooooteeeeeeeeeerrrrrrrrrr*/
+
+
+.section4{
+	background: #295093;
+	margin-top: 30px;
+}
+
+.footer{
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 300px;
+}
+
+.footertop{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 3px solid #133C82;
+	height: 76px;
+}
+
+.footertopLogo{
+	width: 194px;
+	height: 38px;
+	background: #133C82;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.footertopText{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 900px;
+}
+
+.footertopText p{
+	color: white;
+	font-weight: 500;
+}
+
+.footertopText a{
+	color: #295093;
+	font-weight: 500;
+	font-size: 14px;
+	padding: 10px 15px;
+	background-color: white;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.footertopText a:before{
+	content: url(../images/koktelegram.svg);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	object-fit: contain;
+}
+
+
+
+
+.footerbottom{
+	display: flex;
+	justify-content: flex-start;
+	color: #FFFFFF;
+}
+
+.footerbottomText{
+	width: 365px;
+	height: 220px;
+}
+
+.footerservise{
+	width: 600px;
+	display: flex;
+	justify-content: space-around;
+	height: 220px;
+	font-weight: bold;
+}
+
+.footerservise ul{
+	margin: 0;
+	padding-top: 10px;
+}
+
+.footerservise li{
+	line-height: 44px;
+}
+
+.footerservise a{
+	color: #fff;
+	font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
